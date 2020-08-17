@@ -69,7 +69,7 @@
   Then calculator display result with power 10 and user can see whole result
   by scroll in horizontal.
   
-## Scenario: User pressed another operator after pressing multi[ly operator
+## Scenario: User pressed another operator after pressing multiply operator
   
   Given user has turned on calculator. ( user input: 6*+)
   
