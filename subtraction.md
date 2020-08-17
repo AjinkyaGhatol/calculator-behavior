@@ -63,7 +63,7 @@
   
   When I try to subtract more than two numbers
   Then I see the subtraction in result.
-  note: subtraction is done according to precedence.
+  note: Calculator subtracts according to precedence.
   
 ## Scenario: Subtraction is out of range
   
