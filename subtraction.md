@@ -13,7 +13,8 @@
   When I type in first negative number and I press minus and I type in second
   negative number and I press equal
   Then I see the subtraction in result. Output for given user input: 0
-  note: user has to use brackets for second operand to treat it as negative number otherwise Calculator converts second operand to positive number.
+  note: user has to use brackets for second operand to treat it as negative 
+  number otherwise Calculator converts second operand to positive number.
   
 ## Scenario: First operand is positive and second operand is negative
 
@@ -22,7 +23,8 @@
   When I type in positive number and I press minus and I type in negative number
   and I press equal
   Then calculator will subtract two numbers. Output for given user input: 12
-  note: user has to use brackets for second operand to treat it as negative number otherwise Calculator converts second operand to positive number.
+  note: user has to use brackets for second operand to treat it as negative 
+  number otherwise Calculator converts second operand to positive number.
   
 ## Scenario: First operand is negative and second operand is positive
   
@@ -79,4 +81,5 @@
   When User pressed another operator after pressing minus operator
   Then calculator replace minus operator with new operator. Output for given
   user input: 6+
-  note: user has to use brackets for second operand to treat it as negative number otherwise Calculator converts second operand to positive number.
+  note: user has to use brackets for second operand to treat it as negative 
+  number otherwise Calculator converts second operand to positive number.
