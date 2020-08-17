@@ -8,7 +8,8 @@
   
 ## Scenario: calculator is turned on with no history stored
   
-  Given user has turned on calculator and calculation history not present in file storage.
+  Given user has turned on calculator and calculation history not present in file
+  storage.
   When I press on
   Then I see the new calculator with no history tab.
   
